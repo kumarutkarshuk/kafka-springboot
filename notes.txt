@@ -7,3 +7,5 @@
     - kafka : sudo docker run -p 9092:9092   -e KAFKA_ZOOKEEPER_CONNECT=<PRIVATE-IP>:2181   -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<PRIVATE-IP>:9092   -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1   confluentinc/cp-kafka:7.2.1
 
 - group id and topic name can be anything
+
+- partitions are indexed from 0
