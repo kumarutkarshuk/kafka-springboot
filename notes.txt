@@ -1,0 +1,9 @@
+- refer:
+    - https://youtu.be/ZJJHm_bd9Zo?si=uzokiKeZwSHIOOx-
+    - https://medium.com/@abhishekranjandev/a-comprehensive-guide-to-integrating-kafka-in-a-spring-boot-application-a4b912aee62e
+
+- run (docker container)
+    - zookeeper (for auto-balancing partitions between consumers inside groups): docker run -p 2181:2181 zookeeper
+    - kafka : sudo docker run -p 9092:9092   -e KAFKA_ZOOKEEPER_CONNECT=<PRIVATE-IP>:2181   -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<PRIVATE-IP>:9092   -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1   confluentinc/cp-kafka:7.2.1
+
+- group id and topic name can be anything
