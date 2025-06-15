@@ -31,7 +31,7 @@ confluentinc/cp-kafka
 
 4. Send messages via the only producer on the API Endpoint: `POST /send`
 
-    Parameters:
+    Query Parameters:
   
       | Name       | Type   | Required | Description          |
       |------------|--------|----------|----------------------|
