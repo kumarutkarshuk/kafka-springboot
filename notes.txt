@@ -1,3 +1,13 @@
+- Kafka is a tool used to send, receive, and process large amounts of real-time data between systems in a reliable and scalable way.
+
+- Kafka is like a messaging system where:
+  - One system produces data (called a producer),
+  - Another system consumes that data (called a consumer),
+  - Kafka sits in the middle as a broker to pass data around safely.
+It works like a log — data is written in order and read in order.
+
+- It tackles low throughput of DBs, but Kafka has less storage compared to DBs
+
 - refer:
     - https://youtu.be/ZJJHm_bd9Zo?si=uzokiKeZwSHIOOx-
     - https://medium.com/@abhishekranjandev/a-comprehensive-guide-to-integrating-kafka-in-a-spring-boot-application-a4b912aee62e
