@@ -31,7 +31,7 @@ confluentinc/cp-kafka
 
 4. Send messages via the only producer on the API Endpoint: `POST /send`
 
-    Parameters:
+    Query Parameters:
   
       | Name       | Type   | Required | Description          |
       |------------|--------|----------|----------------------|
@@ -41,6 +41,6 @@ confluentinc/cp-kafka
   
     Response: Message sent: YOUR_MESSAGE
 
-    **NOTE:** Spring Boot web app runs on the default port: 8080
+    **NOTE:** Spring Boot web server runs on the default port: 8080
 
   
